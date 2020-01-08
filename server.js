@@ -9,7 +9,7 @@ connectDB();
 //Init Middlewware
 app.use(express.json({extended:false}));
 
-);
+
 
 // Define Routes
 app.use('/api/users', require('./routes/api/users'));
